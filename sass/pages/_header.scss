@@ -1,0 +1,27 @@
+.header {
+  background-color: $snow;
+
+  &__content > div {
+    display: flex;
+    align-items: center;
+  }
+
+  &__toolbar > div {
+    margin-right: 0.5rem;
+    padding: 1rem;
+    color: $primary;
+    cursor: pointer;
+  }
+
+  &__toolbar--selected {
+    background-color: $primary;
+    color: $white !important;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    transition: all 0.2s linear;
+  }
+
+  &__toolbar--selected:hover {
+    background-color: darken($primary, 10%);
+  }
+}

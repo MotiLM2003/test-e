@@ -1,0 +1,12 @@
+// abastracts
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+@import './base/base';
+
+// components
+@import './components/catagoriesSelector.scss';
+
+// pages
+@import './pages/header';
+@import './pages/home';

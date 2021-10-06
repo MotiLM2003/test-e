@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_50" data-name="Rectangle 50" width="32" height="32" transform="translate(1224 177)" fill="#00dd80" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_8" data-name="Mask Group 8" transform="translate(-1224 -177)" clip-path="url(#clip-path)">
+    <g id="_8" data-name="8" transform="translate(1224 177)">
+      <g id="Group_82" data-name="Group 82">
+        <g id="Group_81" data-name="Group 81">
+          <path id="Path_99" data-name="Path 99" d="M30.455,23.717a1,1,0,0,0-.788-.384H2.333a1,1,0,0,0-.969,1.243L2.7,29.909a1,1,0,0,0,.969.757H28.333a1,1,0,0,0,.971-.757l1.333-5.333a1,1,0,0,0-.183-.859Z" fill="#00dd80"/>
+        </g>
+      </g>
+      <g id="Group_85" data-name="Group 85">
+        <g id="Group_84" data-name="Group 84">
+          <g id="Group_83" data-name="Group 83">
+            <path id="Path_100" data-name="Path 100" d="M16,10a1.333,1.333,0,0,1-1.333-1.333V6a1.333,1.333,0,0,1,2.667,0V8.667A1.333,1.333,0,0,1,16,10Z" fill="#00dd80"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_87" data-name="Group 87">
+        <g id="Group_86" data-name="Group 86">
+          <circle id="Ellipse_9" data-name="Ellipse 9" cx="2.667" cy="2.667" r="2.667" transform="translate(13.333 1.333)" fill="#00dd80"/>
+        </g>
+      </g>
+      <g id="Group_89" data-name="Group 89">
+        <g id="Group_88" data-name="Group 88">
+          <path id="Path_101" data-name="Path 101" d="M16.093,8A15.023,15.023,0,0,0,1.4,21H30.44A15.009,15.009,0,0,0,16.093,8ZM24.96,20.093a.987.987,0,0,1-.987-1A5.674,5.674,0,0,0,18.36,13.36a1,1,0,1,1,.027-2,7.677,7.677,0,0,1,7.587,7.747A1,1,0,0,1,24.96,20.093Z" fill="#00dd80"/>
+        </g>
+      </g>
+      <g id="Group_91" data-name="Group 91">
+        <g id="Group_90" data-name="Group 90">
+          <path id="Path_102" data-name="Path 102" d="M30.667,23H1.333a1.333,1.333,0,0,0,0,2.667H30.667a1.333,1.333,0,0,0,0-2.667Z" fill="#00dd80"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

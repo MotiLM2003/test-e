@@ -1,0 +1,68 @@
+/* import muli font family */
+@import url('https://use.typekit.net/doy3sqb.css');
+
+/* Reset */
+:root {
+  $primary: #00dd80;
+  $defualt-text: #5c6561;
+}
+
+*,
+*::after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:link,
+*:visited,
+a {
+  color: $white;
+  text-decoration: none;
+}
+
+html {
+  font-size: 61.5%;
+  @include respond(tab-land) {
+    font-size: 61.5%;
+  }
+  @include respond(tab-port) {
+    font-size: 52%;
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%;
+  }
+
+  @include respond(phone) {
+    font-size: 42.8%;
+  }
+}
+
+body {
+  font-family: muli, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: $default-font-size;
+  box-sizing: border-box;
+  min-height: 100vh;
+  @include respond(tab-port) {
+    max-width: 100%;
+  }
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 1546px;
+  max-width: calc(100vw - 120px);
+  margin: 0 auto;
+  padding: 1rem 0;
+  position: relative;
+  @include respond(tab-land) {
+    max-width: calc(100% - 80px);
+  }
+  @include respond(phone) {
+    max-width: calc(100% - 10px);
+  }
+}
