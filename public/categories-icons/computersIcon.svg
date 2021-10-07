@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectangle_50" data-name="Rectangle 50" width="32" height="32" transform="translate(720 177)" fill="#fff" stroke="#fff" stroke-width="1"/>
+      <rect id="Rectangle_50" data-name="Rectangle 50" width="32" height="32" transform="translate(720 177)" fill="#00dd80" stroke="#00dd80" stroke-width="1"/>
     </clipPath>
   </defs>
   <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(-720 -177)" clip-path="url(#clip-path)">
