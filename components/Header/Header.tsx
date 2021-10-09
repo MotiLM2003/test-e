@@ -14,20 +14,21 @@ const Header: React.FC = () => {
             height="32"
           />
         </div>
-        <div className="hidden md:flex md:flex-grow text-center relative">
+        <div className="hidden ">
           <input
             type="text"
             className="rounded outline-none border border-gray-300 text-base  w-full mt-1 mr-10 ml-10 p-2"
             placeholder="Search for products..."
           />
         </div>
-        <div className="header__toolbar flex items-center text-sm align-items-center text">
-          <div className="header__toolbar--selected flex items-center gap-1">
+        <div className="header__toolbar flex items-center text-xs align-items-center text">
+          <div className="header__toolbar--selected flex items-center gap-1 text-xs">
             <Image src="/chrome.svg" width="12" height="12" alt="chrome Icon" />
             Install SafeDeal
           </div>
-                  <div className="flex items-center">ShowCase
-                  <Image
+          <div className="flex items-center">
+            ShowCase
+            <Image
               src="/down-arrow.svg"
               width="14"
               height="14"

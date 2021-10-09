@@ -1,6 +1,7 @@
 .catagories-selector {
   background-color: rgba($primary, 0.2);
   border-radius: 0.2rem;
+  overflow: hidden;
 
   &__cell {
     width: 120px;

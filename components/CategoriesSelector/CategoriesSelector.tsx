@@ -3,11 +3,10 @@ import Image from 'next/image'
 import CategoryItem from './CategoryItem'
 
 const CategoriesSelector: React.FC = () => {
-  const [selectedCatagory, setSelectedCategory] = useState(0);
-
+  const [selectedCatagory, setSelectedCategory] = useState(0)
 
   return (
-    <section className="catagories-selector w-screen flex justify-center items-center gap-20">
+    <section className="catagories-selector w-screen flex justify-center items-center gap-1 md:gap-10 ">
       <CategoryItem
         text="Apparel Accessories"
         imageURL="/categories-icons/apparel.svg"

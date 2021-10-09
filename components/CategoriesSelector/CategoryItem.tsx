@@ -24,7 +24,8 @@ const CategoryItem: React.FC<Props> = ({
     <div
       onClick={setCategory}
       className={`catagories-selector__cell flex flex-col items-center justify-center gap-3 ${
-        selectedCatagory === itemId && ' catagories-selector__cell--selected'
+        selectedCatagory === itemId &&
+        ' catagories-selector__cell--selected text-xl'
       }`}
     >
       <Image src={imageURL} width="18" height="18" alt={text} />

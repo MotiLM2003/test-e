@@ -20,6 +20,10 @@ module.exports = {
         '8xl': '1920px',
       },
       colors: {
+        main: {
+          light: '#232F3E',
+          DEFAULT: '#00dd80',
+        },
         primary: 'var(--primary)',
         'primary-2': 'var(--primary-2)',
         secondary: 'var(--secondary)',
@@ -47,11 +51,7 @@ module.exports = {
         green: 'var(--green)',
         red: 'var(--red)',
       },
-      textColor: {
-        base: 'var(--text-base)',
-        primary: 'var(--text-primary)',
-        secondary: 'var(--text-secondary)',
-      },
+      textColor: {},
       boxShadow: {
         'outline-normal': '0 0 0 2px var(--accent-2)',
         magical:
