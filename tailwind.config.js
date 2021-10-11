@@ -21,8 +21,9 @@ module.exports = {
       },
       colors: {
         main: {
-          light: '#232F3E',
+          light: '#E5FCF2',
           DEFAULT: '#00dd80',
+          dark: '#059669',
         },
         primary: 'var(--primary)',
         'primary-2': 'var(--primary-2)',
@@ -47,9 +48,6 @@ module.exports = {
         pink: 'var(--pink)',
         'pink-light': 'var(--pink-light)',
         cyan: 'var(--cyan)',
-        blue: 'var(--blue)',
-        green: 'var(--green)',
-        red: 'var(--red)',
       },
       textColor: {},
       boxShadow: {

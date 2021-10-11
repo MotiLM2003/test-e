@@ -13,7 +13,7 @@ const index: React.FC = () => {
       <CategoriesSelector />
       <section className="flex  justify-stretch">
         <Menu />
-        <main className="flex-grow text-center m-5">
+        <main className="flex-grow text-center m-5 max-w-screen-2xl mx-auto">
           <Products />
         </main>
       </section>
