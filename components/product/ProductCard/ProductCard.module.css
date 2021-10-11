@@ -24,6 +24,10 @@
 
   &:nth-child(6n + 5) .header .name span,
   &:nth-child(6n + 5) .header .price,
+  &:nth-child(6n + 5) .wishlistButton {
+    @apply bg-blue text-white;
+  }
+
   &:nth-child(6n + 3) .header .name span,
   &:nth-child(6n + 3) .header .price,
   &:nth-child(6n + 3) .wishlistButton {
