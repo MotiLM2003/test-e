@@ -17,7 +17,7 @@ const Menu: React.FC = () => {
         </div>
         <div>
           <h3 className="mb-4">Rating Safedeal</h3>
-          <ul className="text-gray-400 mt-2">
+          <ul className="text-gray-400 mt-2 text-xs ">
             <li>High (80% - 100%)</li>
             <li className="text-main">Middle (50% - 79%)</li>
             <li>Low (0% - 49%)</li>

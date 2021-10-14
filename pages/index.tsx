@@ -16,6 +16,7 @@ const index: React.FC = () => {
         <main className="flex-grow text-center m-5 max-w-screen-2xl mx-auto">
           <Products />
         </main>
+        npm
       </section>
       <Footer />
     </>
