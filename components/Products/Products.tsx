@@ -11,12 +11,6 @@ const Products: React.FC = () => {
         <Product imageURL="/products/image-2.jpg" color="red" />
         <Product imageURL="/products/image-2.jpg" color="yellow" />
       </div>
-
-      <div className="mt-10">
-        <button className="bg-main py-3  px-7 rounded text-white hover:bg-main-dark">
-          Load More
-        </button>
-      </div>
     </section>
   )
 }

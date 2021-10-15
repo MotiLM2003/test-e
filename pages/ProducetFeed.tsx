@@ -2,6 +2,7 @@ import Footer from '@components/Footer/Footer'
 import Header from '@components/Header/Header'
 import React from 'react'
 import Image from 'next/image'
+import Products from '@components/Products/Products'
 
 const ProductDetails = () => {
   return (
@@ -124,9 +125,9 @@ const ProductDetails = () => {
         <div className="max-w-screen-2xl mx-auto text-lg">
           <div className="flex items-center  ml-24 mt-4 gap-10 text-2xl text-gray-400 border-b-4 mb-5 w-full">
             <span className="text-black"> Product Details</span>
-            <span>Product Details</span>
+            <span>Rating & Reviews (4.7)</span>
           </div>
-          <p className=" ml-24 text-sm text-gray-4">
+          <p className=" ml-24 text-sm text-gray-400">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque tincidunt elementum laoreet. Sed sollicitudin malesuada
             rhoncus. Nam in dictum quam, quis accumsan nunc. Donec facilisis
@@ -137,14 +138,26 @@ const ProductDetails = () => {
           </p>
         </div>
       </section>
-      <section className="footer bg-main-light  text-black mb-10 mt-5 p-10 flex flex-col  items-center">
-        <h1 className="text-2xl">
-          Our extension is available for your browser!
-        </h1>
-        <h2 className="text-sm text-gray-400 mt-2">
-          {' '}
-          our Adjusted Rating without having to leave Amazon
-        </h2>
+      <section className="footer bg-main-light  text-black  mt-10 mb-10 p-10 flex justify-center gap-20 ">
+        <div className="flex flex-col  items-center">
+          <h1 className="text-2xl">
+            Our extension is available for your browser!
+          </h1>
+          <h2 className="text-sm text-gray-400">
+            our Adjusted Rating without having to leave Amazon
+          </h2>
+        </div>
+        <button className="text-sm bg-main text-white pr-4 pl-4 rounded font-bold flex items-center gap-2">
+          <Image src="/chrome.svg" height="18" width="18" alt="Chrome logo" />
+          <span className="mt-1"> Add to Chrome</span>
+        </button>
+      </section>
+
+      <section className="mt-5 max-w-screen-2xl mx-auto text-lg mb-10">
+        <h1 className="ml-24 text-2xl mb-2">Related products</h1>
+        <div className="ml-24">
+          <Products />
+        </div>
       </section>
       <Footer />
     </div>

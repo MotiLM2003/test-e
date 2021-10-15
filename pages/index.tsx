@@ -15,6 +15,11 @@ const index: React.FC = () => {
         <Menu />
         <main className="flex-grow text-center m-5 max-w-screen-2xl mx-auto">
           <Products />
+          <div className="mt-10">
+            <button className="bg-main py-3  px-7 rounded text-white hover:bg-main-dark">
+              Load More
+            </button>
+          </div>
         </main>
         npm
       </section>
