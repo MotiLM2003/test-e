@@ -138,7 +138,11 @@ const ProductDetails = () => {
           </p>
         </div>
       </section>
-      <section className="footer bg-main-light  text-black  mt-10 mb-10 p-10 flex justify-center gap-20 ">
+      <section className="ex-container bg-main-light  text-black  mt-10 mb-10 p-10 flex justify-center gap-20 relative ">
+        <img src="/icon-1.svg" className="icon-1" />
+        <img src="/icon-2.svg" className="icon-2" />
+        <img src="/icon-3.svg" className="icon-3" />
+        <img src="/icon-3.svg" className="icon-4" />
         <div className="flex flex-col  items-center">
           <h1 className="text-2xl">
             Our extension is available for your browser!

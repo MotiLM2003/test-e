@@ -14,6 +14,7 @@ const Header: React.FC = () => {
             height="32"
           />
         </div>
+
         <div className="hidden ">
           <input
             type="text"
@@ -22,7 +23,7 @@ const Header: React.FC = () => {
           />
         </div>
         <div className="header__toolbar flex items-center text-xs align-items-center text">
-          <div className="header__toolbar--selected flex items-center gap-1 text-xs">
+          <div className="header__toolbar--selected flex items-center gap-1 text-xs bg-main">
             <Image src="/chrome.svg" width="12" height="12" alt="chrome Icon" />
             Install SafeDeal
           </div>

@@ -21,7 +21,6 @@ const index: React.FC = () => {
             </button>
           </div>
         </main>
-        npm
       </section>
       <Footer />
     </>
